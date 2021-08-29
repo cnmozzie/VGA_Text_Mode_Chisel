@@ -1,0 +1,11 @@
+The ConsoleFont.bmp image is nothing more than the extended ASCII charset.
+This can be very useful if you desire video mode with a simple font (you can make it look like an enhanced
+text mode, if you want to).
+
+The font is public domain as far as I'm concerned (I did nothing more than print the characters in
+the console and create a bitmap out of them).
+
+The ConsoleFont.raw image is the same as the bitmap image, but with a stripped header; the image contains
+the pixels only. Both images are 8-bit (thus 1 byte per pixel).
+
+Creature
